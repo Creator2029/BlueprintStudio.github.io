@@ -1,20 +1,147 @@
-name: Jekyll site CI
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Blueprint Studio in Illinois | Affordable Website Design & Digital Agency</title>
+  <meta name="description" content="Blueprint Studio creates custom websites and digital marketing solutions for businesses in Illinois. Contact us today!">
+  <meta name="keywords" content="Web Design Grafton, Website Designer Grafton, Affordable Website Design near Grafton">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://blueprintstudio.agency/services">
+  <meta property="og:site_name" content="Blueprint Studio">
+  <meta property="og:description" content="Blueprint Studio creates custom websites and digital marketing solutions for businesses in Illinois. Contact us today!">
+  <link rel="canonical" href="https://www.blueprintstudio.agency/services">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/site.css">
+  <link rel="stylesheet" href="styles/custom.css">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-183KX7JDET"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-183KX7JDET');
+  </script>
+</head>
+<body>
+  <a href="#main" class="skip-to-content">Skip to content</a>
+  <div class="site-container">
+    <header class="primary-header">
+      <div class="branding">
+        <a class="logo" href="/">
+          <img src="images/logo.png" alt="Blueprint Studio Logo" width="160" height="60">
+        </a>
+        <h2><span>Agency</span></h2>
+      </div>
+      <nav class="primary-navigation">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about-us">About Us</a></li>
+          <li><a class="active" href="/services">Services</a>
+            <ul>
+              <li><a href="/blog">Blog</a></li>
+            </ul>
+          </li>
+          <li><a href="/examples">Examples</a></li>
+          <li><a href="/pricing">Pricing</a></li>
+          <li><a href="/testimonials">Testimonials</a></li>
+          <li><a href="/contact-us">Contact Us</a></li>
+          <li><a href="/search"><i class="fas fa-search"></i> Search</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="services">
+        <article class="service highlight">
+          <h2 class="centered">Services</h2>
+        </article>
+        <article class="service">
+          <img src="images/service-affordable-web-design.jpg" alt="Affordable Website Design" width="960" height="640">
+          <h2>Affordable Website Design</h2>
+          <p>At <strong>BLUEPRINT STUDIO</strong>, we create affordable, custom websites for businesses in Illinois. Get your free consultation today!</p>
+          <a class="btn" href="/contact-us">Get Started</a>
+        </article>
+        <article class="service">
+          <img src="images/service-seo.jpg" alt="Search Engine Optimization (SEO)" width="960" height="640">
+          <h2>Search Engine Optimization (SEO)</h2>
+          <p>We provide SEO services to help your business rank higher on search engines and attract more customers.</p>
+          <a class="btn" href="/contact-us">Learn More</a>
+        </article>
+        <article class="service">
+          <img src="images/service-social-media.jpg" alt="Social Media Marketing" width="960" height="640">
+          <h2>Social Media Marketing</h2>
+          <p>Boost your brand's online presence through effective social media strategies with Blueprint Studio.</p>
+          <a class="btn" href="/contact-us">Learn More</a>
+        </article>
+        <article class="service">
+          <img src="images/service-reputation.jpg" alt="Reputation Management" width="960" height="640">
+          <h2>Reputation Management</h2>
+          <p>Protect and enhance your business reputation online with our expert management services.</p>
+          <a class="btn" href="/contact-us">Learn More</a>
+        </article>
+        <article class="service">
+          <img src="images/service-branding.jpg" alt="Branding & Design" width="960" height="640">
+          <h2>Branding &amp; Design</h2>
+          <p>We provide branding and graphic design solutions to make your business stand out.</p>
+          <a class="btn" href="/contact-us">Learn More</a>
+        </article>
+        <article class="service">
+          <img src="images/service-digital-strategy.jpg" alt="Digital Strategy" width="960" height="640">
+          <h2>Digital Strategy</h2>
+          <p>Blueprint Studio crafts comprehensive strategies to grow your business online.</p>
+          <a class="btn" href="/contact-us">Learn More</a>
+        </article>
+        <article class="service highlight">
+          <h2 class="centered">GET YOUR FREE WEBSITE MOCKUP</h2>
+          <p class="centered">Interested in seeing how your new website can look? Contact us today to request your <strong>FREE mockup</strong>!</p>
+          <a class="btn centered" href="/contact-us">Request a Mockup</a>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <section>
+          <h1>About&nbsp;BLUEPRINT STUDIO</h1>
+          <p>If you're searching for an affordable and reliable website designer near Grafton, look no further. At <strong>BLUEPRINT STUDIO</strong>, we're committed to helping your business succeed online.</p>
+        </section>
+        <section>
+          <address>
+            <strong>Location:</strong><br>
+            1134 Redwing Ct, Grafton, IL 62037<br>
+            <strong>Phone:</strong> <a href="tel:618-685-0024">618-685-0024</a><br>
+            <strong>Email:</strong> <a href="mailto:support@blueprintstudio.agency">support@blueprintstudio.agency</a>
+          </address>
+          <div class="hours">
+            <strong>Hours:</strong><br>
+            Monday - Friday: 9:00am - 5:00pm<br>
+            Saturday - Sunday: Closed<br>
+          </div>
+          <div class="map">
+            <!-- Embed map if desired -->
+          </div>
+        </section>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about-us">About Us</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/examples">Examples</a></li>
+            <li><a href="/pricing">Pricing</a></li>
+            <li><a href="/testimonials">Testimonials</a></li>
+            <li><a href="/contact-us">Contact Us</a></li>
+            <li><a href="/search"><i class="fas fa-search"></i> Search</a></li>
+          </ul>
+        </nav>
+        <div class="copyright">
+          Copyright ©2025 Blueprint Studio. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="scripts/site.js"></script>
+</body>
+</html>
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v4
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
