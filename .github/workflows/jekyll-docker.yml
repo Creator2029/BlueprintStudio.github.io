@@ -115,9 +115,13 @@
             <strong>Email:</strong> <a href="mailto:support@blueprintstudio.agency">support@blueprintstudio.agency</a>
           </address>
           <div class="hours">
-            <strong>Hours:</strong><br>
-            Monday - Friday: 9:00am - 5:00pm<br>
-            Saturday - Sunday: Closed<br>
+            <strong>Hours:</strong>
+            business_hours:
+  Monday: "9:00am - 5:00pm"
+  Tuesday: "9:00am - 5:00pm"
+  Wednesday: "9:00am - 5:00pm"
+  Thursday: "9:00am - 5:00pm"
+  Friday: "9:00am - 5:00pm"
           </div>
           <div class="map">
             <!-- Embed map if desired -->
